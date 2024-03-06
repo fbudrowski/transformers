@@ -1122,7 +1122,7 @@ class NeptuneCallback(TrainerCallback):
         verify_type("project", project, (str, type(None)))
         verify_type("name", name, (str, type(None)))
         verify_type("base_namespace", base_namespace, str)
-        verify_type("run", run, (Run, type(None)))
+        # verify_type("run", run, (Run, type(None)))
         verify_type("log_parameters", log_parameters, bool)
         verify_type("log_checkpoints", log_checkpoints, (str, type(None)))
 
